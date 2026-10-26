@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="TRANG CHỦ"
+            android:textColor="#3949AB"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:text="Đăng ký thành công!"
+            android:textColor="#2E7D32"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tvThongTinNguoiDung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:background="#FFFFFF"
+            android:lineSpacingExtra="8dp"
+            android:padding="20dp"
+            android:text="Thông tin người dùng"
+            android:textColor="#222222"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/btnQuayLai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#3949AB"
+            android:text="QUAY LẠI ĐĂNG KÝ"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</ScrollView>
